@@ -1,0 +1,85 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+h1 {
+    background: linear-gradient(90deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #222;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 500;
+}
+
+nav a:hover {
+    color: #00f2fe;
+}
+
+/* Main content */
+section {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #4facfe;
+}
+
+/* Image */
+img {
+    width: 250px;
+    border-radius: 12px;
+    margin-top: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* About text */
+.about-text {
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+/* Contact */
+.contact {
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 30px;
+}
